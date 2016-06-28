@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 
   $(".item").last().click(function() {
-    $(".item").remove();
+    $(this).remove();
 
 
 
